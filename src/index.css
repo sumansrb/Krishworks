@@ -1,0 +1,8 @@
+.list-style {
+    list-style-type: none;
+}
+.list-style li:before {
+    content: '\2012';
+    position: absolute;
+    margin-left: -20px;
+  }
